@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Моё портфолио</title>
+</head>
+
+<body class="page" id="page">
+    <header class="header">
+        <a class="header__logo" href="#page">Andrei Rahalevich</a>
+        <nav class="header__nav">
+            <ul class="header__li">
+                <li>
+                    <a class="header__link header__link-about" id="_1" href="#hero">About</a>
+                </li>
+                <li>
+                    <a class="header__link header__link-passions" id="_2" href="#passions">Passions</a>
+                </li>
+                <li>
+                    <a class="header__link header__link-portfolio" id="_3" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="header__link header__link-contact" id="_4" href="#contacts">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <article class="hero" id="hero">
+            <div class="hero__row">
+                <p class="hero__welcome">Hi !</p>
+                <h1 class="hero__title">I’m Andrei Rahalevich a Front-End Developer</h1>
+                <p class="hero__paragraph">Place of residence Republic of Belarus, city of Minsk, purposeful and punctual, looking for a dream job.</p>
+            </div>
+            <img class="hero__avatar" src="./images/avatar.png" alt="">
+        </article>
+        <div class="passions" id="passions">
+            <h2 class="passions__title">Additional <span class="passions__dark">passions</span></h2>
+            <div class="passions__element">
+                <div class="passion">
+                    <img class="passion__image" src="./images/front.svg" alt="">
+                    <h3 class="passion__title"><span class="passion__dark">Front-End</span> Developer</h3>
+                    <p class="passion__text">(HTML5, CSS, JavaScript, Git, ReactJs, Bootstrap)</p>
+                </div>
+                <div class="passion">
+                    <img class="passion__image" class="passions__image" src="./images/back.svg" alt="">
+                    <h3 class="passion__title"><span class="passion__dark">Back-End</span> Developer</h3>
+                    <p class="passion__text">(NodeJS)</p>
+                </div>
+                <div class="passion">
+                    <img class="passion__image" src="./images/ui.svg" alt="">
+                    <h3 class="passion__title"><span class="passion__dark">UI/UX</span> Designer</h3>
+                    <p class="passion__text">(Figma, Adobe XD, )</p>
+                </div>
+                <div class="passion">
+                    <img class="passion__image" src="./images/learning.svg" alt="">
+                    <h3 class="passion__title"><span class="passion__dark">Foreign</span> languages</h3>
+                    <p class="passion__text">(English А1)</p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <h2 class="portfolio__title">My <span class="portfolio__dark">Portfolio</span></h2>
+            <div class="portfolio__projects">
+                <!-- <a class="portfolio__project" href="https://andrei199729.github.io/mesto/index.html" target="__blank">
+                    <h3 class="portfolio__project-title">Mesto</h3>
+                    <img class="portfolio__image" src="https://skrinshoter.ru/i/041121/dosIobpz.png?download=1&name=%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2004-11-2021%2018:29:57.png" alt="Mesto">
+                </a>
+                <a class="portfolio__project" href="https://andrei199729.github.io/Prechu/index.html" target="__blank">
+                    <h3 class="portfolio__project-title">Prechu</h3>
+                    <img class="portfolio__image" src="./images/projectsimages/prechu.png" alt="Prechu">
+                </a>
+                <a class="portfolio__project" href="https://andrei199729.github.io/russian-travel/index.html" target="__blank">
+                    <h3 class="portfolio__project-title">Путешествия по России</h3>
+                    <img class="portfolio__image" src="./images/projectsimages/russia.png" alt="Путешествия по России">
+                </a>
+                <a class="portfolio__project" href="https://andrei199729.github.io/how-to-learn/index.html" target="__blank">
+                    <h3 class="portfolio__project-title">Научиться учиться</h3>
+                    <img class="portfolio__image" src="./images/projectsimages/styde.gif" alt="Научиться учиться">
+                </a> -->
+            </div>
+        </div>
+        <div class="contacts" id="contacts">
+            <h2 class="contacts__title">Contact <span class="contacts__dark">Me</span></h2>
+            <div class="contacts__link">
+                <a href="https://github.com/Andrei199729" class="contact" target="_blank">
+                    <img class="contact__image" src="./images/github.svg" alt="">
+                    <p class="contact__text">Github</p>
+                </a>
+                <a href="" class="contact" target="__blank">
+                    <img class="contact__image" src="./images/instagram.svg" alt="">
+                    <p class="contact__text">Instagram</p>
+                </a>
+                <a href="https://vk.com/id135754544" class="contact" target="__blank">
+                    <img class="contact__image" src="./images/email.svg" alt="">
+                    <p class="contact__text">VK</p>
+                </a>
+                <a href="" class="contact" target="__blank">
+                    <img class="contact__image" src="./images/telpon.svg" alt="">
+                    <p class="contact__text">Telp</p>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Front-End Developer by Andrei Rahalevich</p>
+    </footer>
+    <template class="project-template">
+		<a class="portfolio__project" href="#" target="__blank">
+            <h3 class="portfolio__project-title"></h3>
+            <img class="portfolio__image" src="#" alt="">
+        </a>
+	</template>
+    <script src="./index.js"></script>
+</body>
+
+</html>
